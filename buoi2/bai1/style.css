@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 97vh;
+    justify-content: center;
+}
+
+.chuH {
+    margin-right: 15px;
+    display: flex;
+}
+
+.hNgang {
+    display: flex;
+    align-items: center;
+}
+
+.chuI, .so1 {
+    margin-right: 15px;
+}
+
+.chuT {
+    margin-right: 30px;
+}
+
+.chuT, .so3 {
+    display: flex;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    /* margin: 5px; */
+    background-color: orange;
+}
+
+.BA1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+    margin: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
