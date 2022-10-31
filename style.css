@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 97vh;
+    justify-content: center;
+}
+
+.box {
+    width: 3.3vmin;
+    height: 3.3vmin;
+    /* margin: 1vmin; */
+    background-color: rgb(243, 243, 243);
+}
+
+/* chưa tối ưu */
+.box1 {
+    width: 3.3vmin;
+    height: 3.3vmin;
+    /* margin: 1vmin; */
+    background-color: rgb(0, 0, 0);
+}
+
+.chuT, .chuE, .chuS {
+    display: flex;
+    margin-right: 2.5vmin;
+}
+
+.E1 {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0.8vmin;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover {
+    color: orange;
+}
