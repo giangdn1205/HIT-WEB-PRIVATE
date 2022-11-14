@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #62d7df, #dd42e8);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.form {
+    width: 500px;
+    height: 90vh;
+    margin-top: 50px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.text-login {
+    padding: 50px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.text-username, .text-password {
+    margin-left: -230px;
+}
+
+#user, #pass {
+    height: 40px;
+    width: 275px;
+    border: none;
+    padding: 5px;
+}
+
+.form input {
+    font-size: 16px;
+}
+
+hr {
+    width: 60%;
+    margin-left: 100px;
+}
+
+.forgot-password {
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn_login {
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 40px;
+    border: none;
+    color: aliceblue;
+    background: linear-gradient(90deg, #62d7df, #dd42e8);
+}
+
+.text-login-other {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.social {
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.social a {
+    color: black;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+a:hover {
+    color: orange;
+}
+
+.text-sign-up {
+    margin-top: 220px;
+    margin-bottom: 10px;
+}
+
+.btn-sign-up {
+    color: black;
+    text-decoration: none;
+}
