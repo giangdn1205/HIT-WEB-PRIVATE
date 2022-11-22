@@ -3,7 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p {
+    color: #6a6a6a;
+}
 .nen {
     height: 100vh;
     width: 100%;
@@ -19,21 +24,184 @@
 
 
 
-.about {
-    height: 500px;
+.about1 {
+    height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: #f4623a;
 }
+
+.about {
+    height: 100%;
+    width: 80%;
+    max-width: 700px;
+}
+
+.about_text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.about1 p {
+    font-size: 20px;
+    color: rgb(220, 220, 220);
+    margin-bottom: 70px;
+}
+
+.about h2 {
+    margin-top: 60px;
+    font-size: 28px;
+    color: white;
+}
+.about__gach-chan hr {
+    margin: 20px 0px;
+    height: 3px;
+    width: 50px;
+    font-size: 300px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.about a {
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    transition: 0.7s;
+}
+
+.about a:hover {
+    color: #ff3e3e;
+    transition: 0.7s;
+    background-color: rgb(255, 214, 31);
+}
+
+
+
+
+
+
+
+
+
+
 .services {
-    height: 600px;
+    height: 1020px;
     width: 100%;
     background-color: white;
 }
 
-.portfolio {
-    height: 100vh;
+
+
+
+.services__top {
+    height: 400px;
     width: 100%;
+}
+
+
+
+.services__top__text {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.services__top__text h2 {
+    font-size: 30px;
+}
+
+.services__top__listtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.services__top__listtext__box {
+    width: 80%;
+    display: grid;
+    text-align: center;
+    margin-left: 50px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.box {
+    max-width: 250px;
+}
+
+.services__top__listtext__box i {
+    color: #f4623a;
+} 
+
+.services i {
+    font-size: 30px;
+}
+
+.services h4 {
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    font-weight: 600;
+}
+.services p {
+    font-size: 18px;
+}
+
+
+.services__bottom {
+    height: auto;
+    width: 100%;
+}
+
+.services__bottom--1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__bottom--1 img {
+    height: 310px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 350px;
+    width: 100%;
+    color: white;
     background-color: #212529;
+}
+
+.portfolio__text {
+    margin-bottom: 45px;
+}
+
+.portfolio__btn__download {
+    height: 60px;
+    width: 200px;
+    padding-top: 20px;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #212529;
+    margin-left: 90px;
+    transition: 0.7s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+.portfolio__btn__download:hover {
+    transition: 0.7s;
+    color: #ffffff;
+    background-color: orangered;
 }
 
 .contact {
@@ -41,9 +209,108 @@
     width: 100%;
     background-color: #ffffff;
 }
+.contact_text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_text {
+    margin-top: 100px;
+    text-align: center;
+    height: 200px;
+    max-width: 550px;
+}
+
+.contact_text p {
+    font-size: 20px;
+}
+.contact_text h2 {
+    font-size: 30px;
+}
+
+.gach-chan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gach-chan hr {
+    margin: 20px 0px;
+    height: 3px;
+    width: 50px;
+    font-size: 300px;
+    border: none;
+    background-color: orangered;
+}
+
+.contact_form {
+    text-align: center;
+    height: 550px;
+    width: 100%;
+}
+
+
+.contact_form input {
+    border-radius: 5px;
+    height: 55px;
+    max-width: 550px;
+    width: 80%;
+    margin: 15px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.contact_form input:focus {
+    outline: none;
+    border: 1px solid orangered;
+    box-shadow: 0px 0px 2px 3px rgb(255, 160, 125);
+}
+.contact_form textarea {
+    border-radius: 5px;
+    height: 180px;
+    width: 80%;
+    max-width: 550px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact_form textarea:focus {
+    outline: none;
+    border: 1px solid orangered;
+    box-shadow: 0px 0px 2px 3px rgb(255, 160, 125);
+}
+
+.contact_form i {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #6a6a6a;
+}
+
+.btn-submit {
+    width: 80%;
+    max-width: 550px;
+    margin-top: 30px;
+    height: 50px;
+    color: white;
+    border: none;
+    transition: 0.5s;
+    background-color: #f4623a;
+}
+
+.btn-submit:hover {
+    transition: 0.5s;
+    background-color: #212529;
+}
 
 .footer {
     height: 115px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6a6a6a;
     background-color: #f8f9fa;
 }
