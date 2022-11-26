@@ -18,14 +18,14 @@ p {
     background-image: url(img/nen.png);
 }
 
-.menu {
+.header__menu {
     display: flex;
     justify-content: space-around;
     height: 80px;
     width: 100%;
 }
 
-.header__text {
+.header__content {
     padding-bottom: 5%;
     text-align: center;
     height: 100%;
@@ -45,18 +45,18 @@ h1 {
     color: #ffffff;
 }
 
-.header__text1 {
+.header__content__text {
     width: 60%;
     max-width: 700px;
 }
 
-.header__text1 p {
+.header__content__text p {
     font-size: 20px;
     color: #d5d5d5;
     margin-bottom: 60px;
 }
 
-.header__text1 a {
+.header__content__text a {
     margin-top: 50px;
     padding: 20px 40px;
     border-radius: 30px;
@@ -68,7 +68,7 @@ h1 {
     transition: 0.7s;
 }
 
-.header__text1 a:hover {
+.header__content__text a:hover {
     color: #ffffff;
     transition: 0.7s;
     background-color: rgb(79, 79, 79);
@@ -93,11 +93,11 @@ h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header__menu .menu__text a {
+.header__menu .header__menu__text a {
     font-size: 20px;
 }
 
-.header__menu .menu__nav a {
+.header__menu .header__menu__nav a {
     font-size: 15px;
 }
 
@@ -105,13 +105,13 @@ h1 {
     color: #f4623a;
 }
 
-.menu__nav, .menu__text {
+.header__menu__text, .header__menu__nav {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about1 {
+.about {
     height: 400px;
     width: 100%;
     display: flex;
@@ -121,29 +121,24 @@ h1 {
     background-color: #f4623a;
 }
 
-.about {
+.about__content {
     height: 100%;
     width: 80%;
     max-width: 700px;
 }
 
-.about_text {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.about1 p {
+.about__content p {
     font-size: 20px;
     color: rgb(220, 220, 220);
     margin-bottom: 70px;
 }
 
-.about h2 {
+.about__content h2 {
     margin-top: 60px;
     font-size: 28px;
     color: white;
 }
+
 .about__gach-chan hr {
     margin: 20px 0px;
     height: 3px;
@@ -153,7 +148,7 @@ h1 {
     background-color: rgb(255, 255, 255);
 }
 
-.about a {
+.about__content a {
     padding: 20px 50px;
     border-radius: 30px;
     font-size: 15px;
@@ -164,10 +159,16 @@ h1 {
     transition: 0.7s;
 }
 
-.about a:hover {
+.about__content a:hover {
     color: #ffffff;
     transition: 0.7s;
     background-color: rgb(0, 0, 0);
+}
+
+.about__content__text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .services {
@@ -223,6 +224,7 @@ h1 {
     margin: 10px;
     font-weight: 600;
 }
+
 .services p {
     font-size: 18px;
 }
@@ -253,11 +255,11 @@ h1 {
     background-color: #212529;
 }
 
-.portfolio__text {
+.portfolio__content__text {
     margin-bottom: 45px;
 }
 
-.portfolio__btn__download {
+.portfolio__content__btn-download {
     height: 60px;
     width: 200px;
     padding-top: 20px;
@@ -269,7 +271,8 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
 }
-.portfolio__btn__download:hover {
+
+.portfolio__content__btn-download:hover {
     transition: 0.7s;
     color: #ffffff;
     background-color: orangered;
@@ -280,22 +283,25 @@ h1 {
     width: 100%;
     background-color: #ffffff;
 }
-.contact_text1 {
+
+.contact__content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact_text {
+
+.contact__content__text {
     margin-top: 100px;
     text-align: center;
     height: 200px;
     max-width: 550px;
 }
 
-.contact_text p {
+.contact__content__text p {
     font-size: 20px;
 }
-.contact_text h2 {
+
+.contact__content__text h2 {
     font-size: 30px;
 }
 
@@ -315,13 +321,13 @@ h1 {
     background-color: orangered;
 }
 
-.contact_form {
+.contact__form {
     text-align: center;
     height: 550px;
     width: 100%;
 }
 
-.contact_form input {
+.contact__form input {
     border-radius: 5px;
     height: 55px;
     max-width: 550px;
@@ -331,12 +337,14 @@ h1 {
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.contact_form input:focus {
+
+.contact__form input:focus {
     outline: none;
     border: 1px solid orangered;
     box-shadow: 0px 0px 2px 3px rgb(255, 160, 125);
 }
-.contact_form textarea {
+
+.contact__form textarea {
     border-radius: 5px;
     height: 180px;
     width: 80%;
@@ -348,20 +356,20 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.contact_form textarea:focus {
+.contact__form textarea:focus {
     outline: none;
     border: 1px solid orangered;
     box-shadow: 0px 0px 2px 3px rgb(255, 160, 125);
 }
 
-.contact_form i {
+.contact__form i {
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 28px;
     color: #6a6a6a;
 }
 
-.btn-submit {
+.contact__form__btn-submit {
     width: 80%;
     max-width: 550px;
     margin-top: 30px;
@@ -372,7 +380,7 @@ h1 {
     background-color: #f4623a;
 }
 
-.btn-submit:hover {
+.contact__form__btn-submit:hover {
     transition: 0.5s;
     background-color: #212529;
 }
