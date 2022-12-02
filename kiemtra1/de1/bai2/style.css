@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    text-align: center;
+    background-color: rgb(0, 181, 159);
+}
+
+h2 {
+    padding: 10px;
+}
+p {
+    font-size: 20px;
+}
+input {
+    height: 30px;
+    font-size: 15px;
+}
+
+.btn, .out_put, .input_str {
+    padding: 20px;
+}
+

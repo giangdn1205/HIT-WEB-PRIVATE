@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.menu__left ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.menu__left ul li {
+    padding: 20px;
+    margin: 10px;
+    border-right: 2px solid white;
+}
+
+.menu__left ul li:last-child {
+    border: none;
+}
+
+.menu__left ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.menu__left ul li:hover {
+    border-radius: 5px;
+    background-color: #006319;
+}
+
+.menu__left ul li:hover .menu__left__sub {
+    display: block;
+    position: absolute;
+    background-color: #00CC33;
+    margin-top: 20px;
+    margin-left: -25px;
+
+}
+
+.menu__left__sub {
+    display: none;
+}
+
+.menu__left__sub ul li {
+    border-bottom: 2px solid white;
+}
+
+.menu__left__sub ul li:last-child {
+    border: none;
+    border-right: none;
+}
+
+.menu__left ul li:hover .menu__left__sub ul {
+    display: block;
+}
+
+.header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header h1 {
+    padding: 15px;
+    color: #00CC33;
+}
+
+input {
+    padding: 12px;
+    background-color: white;
+}
+
+
+.shopping {
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+}
+.logo-2 {
+    padding: 10px;
+}
+
+.menu {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #00CC33;
+}
+.menu__left {
+    width: 80%;
+    height: 100%;
+}
+
+
+
+.menu__right {
+    margin-top: 40px;
+    width: 20%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    height: 84vh;
+    width: 100%;
+}
+
+.content_left {
+    /* height: 100%; */
+    width: 15%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.content_left__text {
+    background-color: #ccc;
+    color: #006319;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.content__right {
+    height: 100%;
+    width: 85%;
+    
+}
+
+.content__right__top {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.box {
+    width: 100%;
+    text-align: center;
+    background-color: blueviolet;
+}
